@@ -1,0 +1,25 @@
+footer{
+    background-color: #3D3D3D;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 48px 50px 48px;
+    /* padding : 1.5rem 3rem 5rem 3rem; */
+    color: white;
+    /* margin-top: auto; */
+    border-radius: 40px 40px 0rem  0rem ;
+}
+.FooterRightSide{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+p{
+    color: #CFCFCF;
+}
+
+.Footer{
+    margin-top: auto;
+}
+
+/* //top right bottom left */
