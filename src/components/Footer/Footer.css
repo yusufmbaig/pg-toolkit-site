@@ -8,13 +8,14 @@ footer{
     color: white;
     /* margin-top: auto; */
     border-radius: 40px 40px 0rem  0rem ;
+    overflow:visible;
 }
 .FooterRightSide{
     display: flex;
     justify-content: center;
     gap: 4rem;
 }
-p{
+footer p{
     color: #CFCFCF;
 }
 

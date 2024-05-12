@@ -40,4 +40,5 @@
   height: 100dvh;
   display: flex;
   flex-direction: column;
+  background-color: #EBF1F6;
 }
