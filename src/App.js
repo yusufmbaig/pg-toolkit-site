@@ -1,17 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from './components/Header';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import 
+import logo from "./logo.svg";
+import "./App.css";
+import Home from "./components/Home/Home";
+import EnglishToolkit from "./components/EnglishToolkit/EnglishToolkit";
+import SpanishEnglishToolkit from "./components/SpanishEnglishToolkit/SpanishEnglishToolkit";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Navbar />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Route path="/" element={<Home />} />
+      <Route path="/EnglishToolkit" element={<EnglishToolkit />} />
+      <Route
+        path="/SpanishEnglishToolkit"
+        element={<SpanishEnglishToolkit />}
+      />
+    </BrowserRouter>
   );
 }
 
