@@ -55,203 +55,275 @@ function BeforeSubmit() {
         <div className="RightContent">
           <div className="RightContentTop">
             <div className="RightContentSegments">
-              <h3>
-                <label for="LogTypes">
-                  <div className="starText">
-                    <p id="star">*</p>
-                    <p>Choose between:</p>
-                  </div>
-                </label>
-              </h3>
-              <input type="radio" value="LogChoice1" name="LogTypesChoice" />
-              Frequency and Consistency Log
-              <input type="radio" value="LogChoice2" name="LogTypesChoice" />
-              Phonology and Orthography
+              <label for="LogTypes">
+                <div className="starText">
+                  <h2 id="star">*</h2>
+                  <h2>Choose between:</h2>
+                </div>
+              </label>
+              <div className="InputContainer">
+                <input type="radio" value="LogChoice1" name="LogTypesChoice" />
+                <p>Frequency and Consistency Log</p>
+              </div>
+              <div className="InputContainer">
+                <input type="radio" value="LogChoice2" name="LogTypesChoice" />
+                <p>Phonology and Orthography</p>
+              </div>
             </div>
           </div>
 
           <div className="RightContentBottom">
             <div className="RightContentSegments">
               <h2>Variables</h2>
-              <h3>
-                <label for="General">General</label>
-              </h3>
+              <h3>General</h3>
+              <div className="InputContainer">
+                <label class="Checkcontainer">
+                  Frequency
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div className="InputContainer">
+                <label class="Checkcontainer">
+                  Contextual Diversity
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
 
-              <label>
-                <input type="checkbox" name="options" value="option1" /> Option
-                1
-              </label>
-
-              <label>
-                <input type="checkbox" name="options" value="option2" /> Option
-                2
-              </label>
-
-              <label>
-                <input type="checkbox" name="options" value="option3" /> Option
-                3
-              </label>
-
-              <label>
-                <input type="checkbox" name="options" value="option4" /> Option
-                4
-              </label>
+              <div className="InputContainer">
+                <label class="Checkcontainer">
+                  Familiarity
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div className="InputContainer">
+                <label class="Checkcontainer">
+                  Age of Acquisition
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
             </div>
-
             <div className="RightContentSegments">
-              <h3>
-                <label for="Orthographic">Orthographic</label>
-              </h3>
+              <h3>Orthographic</h3>
+              <div className="InputContainer">
+                <label class="Checkcontainer">
+                  Orthographic Length
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div className="InputContainer">
+                <label class="Checkcontainer">
+                  Graphotactic Probabilities
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
 
-              <label>
-                <input type="checkbox" name="options" value="option1" /> Option
-                1
-              </label>
-
-              <label>
-                <input type="checkbox" name="options" value="option2" /> Option
-                2
-              </label>
-
-              <label>
-                <input type="checkbox" name="options" value="option3" /> Option
-                3
-              </label>
-
-              <label>
-                <input type="checkbox" name="options" value="option4" /> Option
-                4
-              </label>
+              <div className="InputContainer">
+                <label class="Checkcontainer">
+                  Orthographic Neighbourhood
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
             </div>
-
             <div className="RightContentSegments">
-              <h3>
-                <label for="Phonological">Phonological</label>
-              </h3>
+              <h3>Phonological</h3>
+              <div className="InputContainer">
+                <label class="Checkcontainer">
+                  Phonological Length
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div className="InputContainer">
+                <label class="Checkcontainer">
+                  Phonological Probabilities
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
 
-              <label>
-                <input type="checkbox" name="options" value="option1" /> Option
-                1
-              </label>
-
-              <label>
-                <input type="checkbox" name="options" value="option2" /> Option
-                2
-              </label>
-
-              <label>
-                <input type="checkbox" name="options" value="option3" /> Option
-                3
-              </label>
-
-              <label>
-                <input type="checkbox" name="options" value="option4" /> Option
-                4
-              </label>
+              <div className="InputContainer">
+                <label class="Checkcontainer">
+                  Phonological Neighbourhood
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div className="InputContainer">
+                <label class="Checkcontainer">
+                  First Phoneme
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div className="InputContainer">
+                <label class="Checkcontainer">
+                  IPA Transcription
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
             </div>
-
             <div className="RightContentSegments">
-              <h3>
-                <label for="Semantic">Semantic</label>
-              </h3>
+              <h3>Semantic</h3>
+              <div className="InputContainer">
+                <label class="Checkcontainer">
+                  Concreteness/Imageability
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div className="InputContainer">
+                <label class="Checkcontainer">
+                  Polysemy
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
 
-              <label>
-                <input type="checkbox" name="options" value="option1" /> Option
-                1
-              </label>
-
-              <label>
-                <input type="checkbox" name="options" value="option2" /> Option
-                2
-              </label>
-
-              <label>
-                <input type="checkbox" name="options" value="option3" /> Option
-                3
-              </label>
-
-              <label>
-                <input type="checkbox" name="options" value="option4" /> Option
-                4
-              </label>
+              <div className="InputContainer">
+                <label class="Checkcontainer">
+                  Number of Features
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div className="InputContainer">
+                <label class="Checkcontainer">
+                  Specific Semantic Features
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div className="InputContainer">
+                <label class="Checkcontainer">
+                  Affect
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div className="InputContainer">
+                <label class="Checkcontainer">
+                  Semantic Neighbourhood
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div className="InputContainer">
+                <label class="Checkcontainer">
+                  Vector Representation
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
             </div>
-
             <div className="RightContentSegments">
-              <h3>
-                <label for="Ortho-Phon">Ortho-Phon</label>
-              </h3>
-
-              <label>
-                <input type="checkbox" name="options" value="option1" /> Option
-                1
-              </label>
-
-              <label>
-                <input type="checkbox" name="options" value="option2" /> Option
-                2
-              </label>
-
-              <label>
-                <input type="checkbox" name="options" value="option3" /> Option
-                3
-              </label>
-
-              <label>
-                <input type="checkbox" name="options" value="option4" /> Option
-                4
-              </label>
+              <h3>Ortho-Phon</h3>
+              <div className="InputContainer">
+                <label class="Checkcontainer">
+                  Phonogaphic Neighbourhood
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div className="InputContainer">
+                <label class="Checkcontainer">
+                  Consistency
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
             </div>
-
             <div className="RightContentSegments">
-              <h3>
-                <label for="Morphology">Morphology</label>
-              </h3>
+              <h3>Morphology</h3>
+              <div className="InputContainer">
+                <label class="Checkcontainer">
+                  Morphological Length
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div className="InputContainer">
+                <label class="Checkcontainer">
+                  Frequency
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
 
-              <label>
-                <input type="checkbox" name="options" value="option1" /> Option
-                1
-              </label>
-
-              <label>
-                <input type="checkbox" name="options" value="option2" /> Option
-                2
-              </label>
-
-              <label>
-                <input type="checkbox" name="options" value="option3" /> Option
-                3
-              </label>
-
-              <label>
-                <input type="checkbox" name="options" value="option4" /> Option
-                4
-              </label>
+              <div className="InputContainer">
+                <label class="Checkcontainer">
+                  Family Size
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div className="InputContainer">
+                <label class="Checkcontainer">
+                  Percent More Frequent
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div className="InputContainer">
+                <label class="Checkcontainer">
+                  Affix Length
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div className="InputContainer">
+                <label class="Checkcontainer">
+                  Affix Productivity
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
             </div>
-
             <div className="RightContentSegments">
-              <h3>
-                <label for="Response Variables">Response Variables</label>
-              </h3>
+              <h3>Response Variables</h3>
+              <div className="InputContainer">
+                <label class="Checkcontainer">
+                  Visual Lexicon Decision
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div className="InputContainer">
+                <label class="Checkcontainer">
+                  Auditory Lexicon Decision
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
 
-              <label>
-                <input type="checkbox" name="options" value="option1" /> Option
-                1
-              </label>
-
-              <label>
-                <input type="checkbox" name="options" value="option2" /> Option
-                2
-              </label>
-
-              <label>
-                <input type="checkbox" name="options" value="option3" /> Option
-                3
-              </label>
-
-              <label>
-                <input type="checkbox" name="options" value="option4" /> Option
-                4
-              </label>
+              <div className="InputContainer">
+                <label class="Checkcontainer">
+                  Reading Aloud
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div className="InputContainer">
+                <label class="Checkcontainer">
+                  Semantic Decision
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div className="InputContainer">
+                <label class="Checkcontainer">
+                  Recognition Memory
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
             </div>
           </div>
         </div>
